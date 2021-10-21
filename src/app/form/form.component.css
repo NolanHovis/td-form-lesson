@@ -1,0 +1,52 @@
+* {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  background: #f0e7d8;
+  border: none;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid #a63a50;
+  background: #ba6e6e;
+}
+
+.help {
+  color: #a63a50;
+}
+
+button {
+  margin-top: 5px;
+  color: #a1674a;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: #f0e7d8;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  width: 20%;
+}
+
+button:disabled {
+  background-color: #f0e7d87c;
+  color: #a1674a63;
+}
